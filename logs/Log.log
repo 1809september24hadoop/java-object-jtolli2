@@ -7,3 +7,23 @@ com.revature.exception.FailedThiefAttemptException
 com.revature.exception.MasterThiefException
 	at com.revature.object.Arsene.talk(Arsene.java:24)
 	at com.revature.Driver.main(Driver.java:33)
+2018-11-02 09:26:52 ERROR Thief:103 - They were just not a good enough thief
+com.revature.exception.FailedThiefAttemptException
+	at com.revature.object.Thief.talk(Thief.java:101)
+	at com.revature.Driver.main(Driver.java:28)
+2018-11-02 09:27:00 ERROR Thief:24 - The program has been stolen
+com.revature.exception.MasterThiefException
+	at com.revature.object.Arsene.talk(Arsene.java:24)
+	at com.revature.Driver.main(Driver.java:33)
+2018-11-02 09:30:24 ERROR Arsene:24 - The program has been stolen
+com.revature.exception.MasterThiefException
+	at com.revature.object.Arsene.talk(Arsene.java:24)
+	at com.revature.Driver.main(Driver.java:33)
+2018-11-02 09:31:36 ERROR Arsene:24 - The program has been stolen
+com.revature.exception.MasterThiefException
+	at com.revature.object.Arsene.talk(Arsene.java:24)
+	at com.revature.Driver.main(Driver.java:33)
+2018-11-02 09:31:52 ERROR Thief:103 - They were just not a good enough thief
+com.revature.exception.FailedThiefAttemptException
+	at com.revature.object.Thief.talk(Thief.java:101)
+	at com.revature.Driver.main(Driver.java:28)

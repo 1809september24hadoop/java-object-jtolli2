@@ -6,7 +6,7 @@ import com.revature.exception.FailedThiefAttemptException;
 import com.revature.exception.MasterThiefException;
 
 public class Arsene extends Thief {
-	private static final Logger LOGGER = Logger.getLogger(Thief.class);
+	private static final Logger LOGGER = Logger.getLogger(Arsene.class);
 
 	public Arsene(String name, int age, String occupation) {
 		super(name, age, occupation);
