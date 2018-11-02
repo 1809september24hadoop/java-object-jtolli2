@@ -86,7 +86,7 @@ public abstract class Thief implements Human {
 	public void introduce() {
 		if(this.occupation != null) {
 			System.out.println("Hi, I am " + this.name + " and I'm " + this.age +
-					" years old. I work as a" + this.occupation);
+					" years old. I work as a " + this.occupation + ".");
 		} else {
 			System.out.println("Hi, I am " + this.name + " and I'm " + this.age +
 					" years old. I do not have a job.");
@@ -101,7 +101,7 @@ public abstract class Thief implements Human {
 			throw new FailedThiefAttemptException();
 		} catch (FailedThiefAttemptException e) {
 			LOGGER.error("They were just not a good enough thief", e);
-			System.out.println();
+			System.out.println("I guess I'm not a good enough thief");
 		} finally {
 			System.out.println("THE END");
 		}

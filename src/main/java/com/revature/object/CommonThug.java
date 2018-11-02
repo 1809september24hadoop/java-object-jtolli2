@@ -1,5 +1,6 @@
 package com.revature.object;
 
+
 public class CommonThug extends Thief {
 
 	public CommonThug(String name, int age, String occupation) {

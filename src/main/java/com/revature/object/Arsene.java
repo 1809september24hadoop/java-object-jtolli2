@@ -21,7 +21,7 @@ public class Arsene extends Thief {
 		System.out.println("The truth is that I am a gentleman thief that goes by Arsene Lupin and I have already"
 				+ " stolen this program");
 		
-		LOGGER.error("The program has been stolen");
+		LOGGER.error("The program has been stolen", new MasterThiefException());
 		throw new MasterThiefException();
 	}
 	

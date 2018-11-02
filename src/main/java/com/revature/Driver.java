@@ -12,7 +12,7 @@ public class Driver {
 	private static final Logger LOGGER = Logger.getLogger(Driver.class);
 	
 	public static void main(String[] args) throws FailedThiefAttemptException {
-		if(args.length < 2 || args.length > 3) {
+		if(args.length < 3 || args.length > 4) {
 			throw new IllegalArgumentException("Input must be: story#, name, age, occupation || story#, name, age");
 		}
 		

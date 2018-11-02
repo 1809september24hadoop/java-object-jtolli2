@@ -1,5 +1,6 @@
 package com.revature.object;
 
+
 public class Robin extends Thief {
 
 	public Robin(String name, int age, String occupation) {
