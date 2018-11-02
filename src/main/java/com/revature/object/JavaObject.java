@@ -1,6 +1,10 @@
 package com.revature.object;
 
 public class JavaObject {
+	
+	//name
+	//age
+	//
 	/**
 	 * This is a free will assignment for you to have fun with what we have learned.
 	 * 

@@ -1,0 +1,32 @@
+/*
+Compatibility with Java < 1.2
+*/
+private static final long serialVersionUID
+
+public Exc
+
+Runtime Exception does not require try/catch
+You may or may not catch or duck this exception (unchecked)
+last line throw runtime since if it is not handled the program stops (maybe you picked a bad option
+
+Try creating class with patterns for matching words to specific connotations to create appropriate responses
+
+Should use LOGGER
+LOGGER.error("Player couldn't play");
+
+Find some array of names API or something
+
+Make it a terminal application (accept args)
+create method with the purpose returning a boolean if time has passed
+
+idea #1
+Human > Customer | Employee <- Killer (Random chance of invoking killer interface)
+
+idea #2
+Human > Detective | Witness | Suspect <- Killer
+Human > Narrator (Gives opening, warning*, and choice presentation)
+Wrong choice will result in Checked exception
+2nd Wrong choice will throw Runtime error
+
+hero checked
+villian unchecked
